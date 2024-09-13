@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #003366; /* Dark blue text color */
+    background-color: #e6f0ff; /* Light blue background */
+}
+
+header {
+    background: #003366; /* Dark blue for header background */
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 2px solid #3399ff; /* Light blue border for navigation */
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+nav ul li a:hover {
+    background-color: #3399ff; /* Light blue hover effect */
+    border-radius: 5px;
+}
+
+.hero {
+    background: url('hero.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 3em 1em;
+    background-color: #00509e; /* Strong blue color for hero section */
+}
+
+.btn {
+    background: #003366; /* Matching button color */
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.specialties {
+    padding: 2em;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    margin: 1em;
+    border: 1px solid #cce0ff; /* Light blue border for card */
+    border-radius: 5px;
+    padding: 1em;
+    text-align: center;
+    background-color: #f2f9ff; /* Very light blue background for cards */
+    width: 220px; /* Fixed width for uniformity */
+    box-sizing: border-box; /* Ensures padding and border are included in width */
+}
+
+.card img {
+    width: 100%;
+    height: auto; /* Let the height adjust based on the image's aspect ratio */
+    object-fit: cover;
+}
+
+
+footer {
+    background: #003366; /* Footer background matching header */
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.menu-section {
+    padding: 2em;
+    text-align: center;
+}
+
+.menu-section h2 {
+    margin-top: 0;
+}
+
+.contact-info {
+    padding: 2em;
+    text-align: center;
+}
+
+.contact-info h2 {
+    margin-top: 0;
+}
+
+.contact-details {
+    margin-bottom: 2em;
+}
+
+.contact-details h3 {
+    margin: 0.5em 0;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 1em;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    margin-top: 1em;
+    background: #003366; /* Button color */
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #00509e; /* Slightly lighter on hover */
+}
